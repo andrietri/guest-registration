@@ -1,0 +1,34 @@
+package constants
+
+const (
+	HTTP_GET     = "GET"
+	HTTP_POST    = "POST"
+	HTTP_PUT     = "PUT"
+	HTTP_PATCH   = "PATCH"
+	HTTP_DELETE  = "DELETE"
+	HTTP_OPTIONS = "OPTIONS"
+	HTTP_TRACE   = "TRACE"
+)
+
+const (
+	HTTP_RESPONSE_OK                   = 200
+	HTTP_RESPONSE_BAD_REQUEST          = 400
+	HTTP_RESPONSE_UNAUTHORIZED         = 401
+	HTTP_RESPONSE_FORBIDDEN            = 403
+	HTTP_RESPONSE_NOTFOUND             = 404
+	HTTP_RESPONSE_MISDIRECTED_REQUEST  = 421
+	HTTP_RESPONSE_UNPROCESSABLE_ENTITY = 422
+)
+
+const (
+	HEADER_KEY_CONTENT_TYPE   = "Content-Type"
+	HEADER_KEY_AUTHORIZATION  = "Authorization"
+	HEADER_KEY_XSOURCE        = "x-source"
+	HEADER_KEY_SOURCE         = "source"
+	HEADER_KEY_PLATFORM       = "platform"
+	HEADER_KEY_XAUTHSIGNATURE = "X-Auth-Signature"
+)
+
+const (
+	HEADER_VALUE_APPLICATION_JSON = "application/json"
+)
